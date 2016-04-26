@@ -1,2 +1,8 @@
 # java_js_poll
-Java back-end + AngularJs front-end  :-)
+Java back-end:
+  -Jersey Rest Service
+  -MongoDB by Mongo Driver
+  
+JavaScript front-end
+  -AngularJs
+  -Bootstrap
