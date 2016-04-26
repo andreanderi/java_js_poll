@@ -1,0 +1,24 @@
+<div class="col-md-5">
+	<div class="panel panel-primary" ng-app="bbb_poll">
+		<div class="panel-heading">
+			<h3 class="panel-title">
+				<span class="glyphicon "></span>Quem deve ser eliminado?
+			</h3>
+		</div>
+		<div class="panel-body one-col centered">
+			<select id="selectImage" class="image-picker show-html">
+				<option data-img-src="./src/img/p1.jpg" value="1">Participante1</option>
+				<option data-img-src="./src/img/p2.jpg" value="2">Participante2</option>
+			</select>
+		</div>
+		<div class="panel-footer">
+			<div class="text-center">
+				<button id="btnVote" type="button" class="btn btn-primary"
+					ng-click="voteNow()" ui-sref="score">
+					<span class="glyphicon "></span>Envie seu voto agora
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
